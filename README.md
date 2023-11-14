@@ -3,9 +3,6 @@ api para consultar quantos feriado tem no ano e as data
 
 
 
-# HolidaysAPI
-
-Welcome to HolidaysAPI, an API for querying holidays of the year.
 
 ## Technologies Used
 
