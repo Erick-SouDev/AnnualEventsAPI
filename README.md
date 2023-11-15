@@ -18,25 +18,21 @@ api para consultar quantos feriado tem no ano e as data
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/seu-usuario/HolidaysAPI.git
-   cd HolidaysAPI
+   git clone https://github.com/seu-usuario/AnnualEventsAPI.git
+   cd AnnualEventsAPI
 mvn clean install
 
-java -jar target/HolidaysAPI.jar
+java -jar target/AnnualEventsAPI.jar
 
 
 ### A API será acessível em por padrão.http://localhost:8080
 
 ### Pontos de extremidade da API
-GET /holidays/{year}: Obtenha uma lista de feriados para o ano especificado.
-Uso
-Faça uma solicitação GET para recuperar feriados de um ano específico:
+GET http://localhost:8080/api/feriado/nacional/{year}: Obtenha uma lista de feriados para o ano especificado.
 
-
-curl http://localhost:8080/holidays/2023
 
 ### Formato da resposta
-A API retorna uma matriz JSON contendo informações de feriado, com cada objeto tendo propriedades como , , etc.namedate
+A API retorna uma matriz JSON contendo informações de feriado, com cada objeto tendo propriedades como  , etc.name date
 
 
 [
